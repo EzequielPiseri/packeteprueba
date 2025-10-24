@@ -1,19 +1,15 @@
 ---
-title: "viñeta de prueba"
+title: "Guía del paquete de prueba"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{vineta_datos}
+  %\VignetteIndexEntry{Guía del paquete de prueba}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
-```{r, include = FALSE}
+```{r setup, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
 )
-```
-
-```{r setup}
-library(packeteprueba)
-```
+library(paqueteDePrueba)
