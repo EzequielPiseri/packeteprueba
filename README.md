@@ -18,4 +18,4 @@ devtools::install(“ruta/al/paqueteDePrueba”)
 
 # O desde GitHub
 
-# devtools::install_github(“usuario/paqueteDePrueba”)
+# devtools::install_github(“usuario/packeteprueba”)
