@@ -18,7 +18,7 @@
 suma <- function(x = 0, y = 0) {
   # Verificación de tipo
   if (!is.numeric(x) || !is.numeric(y)) {
-    stop("Los argumentos deben ser numéricos.")
+    stop("Los argumentos deben ser numericos.")
   }
 
   # Verificación de negativos
